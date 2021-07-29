@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family: sans-serif;
+  overflow: hidden;
+  
+}
+.navdesign nav .logo1{
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 70px;
+  padding-left: 110px;
+}
+ .navdesign nav{
+  height: 70px;
+  background: #cf1515;
+  box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+ .navdesign nav ul{
+  float: right;
+  margin-right: 100px;
+}
+.navdesign nav ul li{
+  display: inline-block;
+}
+.navdesign nav ul li a{
+  color: white;
+  display: block;
+  padding: 0 15px;
+  line-height: 70px;
+  font-size: 20px;
+  background: #cf1515;
+  transition: .5s;
+}
+.navdesign nav ul li a:hover,
+.navdesign nav ul li a.active{
+  color: #23dbdb;
+}
+.navdesign nav ul ul{
+  position: absolute;
+  top: 85px;
+  border-top: 3px solid #23dbdb;
+  opacity: 0;
+  visibility: hidden;
+}
+.navdesign nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+.navdesign nav ul ul li{
+  width: 150px;
+  display: list-item;
+  position: relative;
+  border: 1px solid #042331;
+  border-top: none;
+}
+.navdesign nav ul ul li a{
+  line-height: 50px;
+}
+.navdesign nav ul ul ul{
+  border-top: none;
+}
+.navdesign nav ul ul ul li{
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+.navdesign nav ul ul li a i{
+  margin-left: 45px;
+}
+.navdesign section{
+  background: url(bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navdesign a:hover{
+  color:white;
+  text-decoration:none;
+}
+
+
+
+
+
+
+
+.nav-item1 .nav-link1{
+    display:block;
+    color:white!important;
+	text-transform:capitalize;
+    text-decoration: none;
+    padding:0.2px 0.2px; 
+    transition: 0.4s ease;	
+}
+
+
+
+
+
+
+
+.my-navbar1{
+  padding:0px;
+  background-color:white;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+}
+
+.text-gray-6001 {
+    color: #ffffff!important;
+}
+.nav-link1 .img-profile1 {
+    height:40px;
+    width:40px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.dropdown1, .dropleft1, .dropright1, .dropup1 {
+    position: relative;
+}
+
+.nav-flag1, .nav-icon1 {
+    padding: .1rem .8rem;
+    display: block;
+    font-size: 1.5rem;
+    color: #6c757d;
+    transition: background .1s ease-in-out,color .1s ease-in-out;
+    line-height: 1.4;
+}
+
+
+.navbar-expand1 .navbar-nav1 .dropdown-menu1 {
+    position: absolute;
+}
+.navbar-nav1 .dropdown-menu1 {
+    box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.05);
+}
+.navbar-nav1 .dropdown-menu1 {
+    position: static;
+    float: none;
+}
+.dropdown-menu-lg1 {
+    min-width: 20rem;
+}
+
+
+.position-relative1 {
+    position: relative!important;
+}
+
+.nav-item1 .indicator1 {
+    background: #3b7ddd;
+    box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.05);
+    border-radius: 50%;
+    display: block;
+    height: 18px;
+    width: 18px;
+    padding: 1px;
+    position: absolute;
+    top: 0;
+    right: -8px;
+    text-align: center;
+    transition: top .1s ease-out;
+    font-size: .675rem;
+    color: #fff;
+}
